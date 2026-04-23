@@ -1,2 +1,11 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;              /* move items to next row instead of shrinking */
+  justify-content: space-between; /* first & last touch edges, space in between */
+}
+
+.item {
+  flex: 0 0 auto;              /* prevent items from shrinking */
+}
